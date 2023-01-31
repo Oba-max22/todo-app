@@ -4,7 +4,7 @@ import { createTodo, getTodoById, getTodos, updateTodo, deleteTodo } from '../co
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Welcome to Todo-App!');
 });
 
 router.get('/todos', getTodos);
